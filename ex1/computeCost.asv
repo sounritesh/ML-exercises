@@ -14,9 +14,7 @@ J = 0;
 %               You should set J to the cost.
 h = X*theta;
 temp = 0;
-for i = 1:m
-   temp = temp + (h(i) - y(i))^2; 
-end
-J = (1/(2*m)) * temp;
+for i
+
 % =========================================================================
 end
