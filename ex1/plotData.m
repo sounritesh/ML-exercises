@@ -1,7 +1,4 @@
 function plotData(x, y)
-plot(x,y,'rx','MarkerSize', 10)
-ylabel("Profit in $10,000s");
-xlabel("Populatin of cities in 10,000s");
 %PLOTDATA Plots the data points x and y into a new figure 
 %   PLOTDATA(x,y) plots the data points and gives the figure axes labels of
 %   population and profit.
@@ -18,10 +15,9 @@ figure; % open a new figure window
 % Hint: You can use the 'rx' option with plot to have the markers
 %       appear as red crosses. Furthermore, you can make the
 %       markers larger by using plot(..., 'rx', 'MarkerSize', 10);
-
-
-
-
+plot(x, y, 'rx', 'MarkerSize', 10);
+xlabel('Population in 10,000s');
+ylabel('Profit in $10,000s');
 
 % ============================================================
 
